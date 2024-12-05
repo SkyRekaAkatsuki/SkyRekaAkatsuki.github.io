@@ -1,1 +1,96 @@
-Hello World
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header h1 {
+            margin: 10px 0 5px;
+        }
+        .header p {
+            color: #777;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .skills ul, .experience ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/face.png" alt="個人照片">
+            <h1>蔡孟樵</h1>
+            <p>PG && SA</p>
+        </div>
+        <div class="section skills">
+            <h2>自我介紹</h2>
+            <p>
+                我是一名擁有近五年系統開發經驗的工程師，專注於處理大量資料的專案。在我的工作中，C# 程式通常作為系統的外殼，實際的資料處理則主要依賴高效的 Stored Procedure，確保系統在面對龐大資料量時仍能穩定且快速地運行。此外，我也參與過需求訪談與系統分析，後台系統的開發，但多數時候負責與中台系統以 API 進行對接的專案，熟悉資料交換與整合的技術細節。
+            </p>
+            <p>
+                作為保哥的忠實粉絲，我對技術社群的最新工具與趨勢始終保持高度關注。由於有社群充滿熱情且富有深度的討論，讓我不僅獲得正向行動力，也有機會借助社群的資源探索新技術在實務中的應用潛力。我始終堅信，技術只是實現目標的工具，真正的挑戰在於如何將其融入業務需求，創造具體的價值。
+            </p>
+            <p>
+                在系統開發過程中，我深刻體會到，成功交付不僅依賴技術能力，更在於有效降低人與人之間的溝通成本。協調團隊、與利益相關者對話、克服溝通障礙，這些挑戰往往是實現高效合作與完美交付的關鍵所在。
+            </p>
+            <p>
+                未來，我希望繼續結合自身的技術專業與社群帶來的正能量，持續探索並落實創新解決方案，為系統開發與業務需求提供更具價值的成果。
+            </p>
+        </div>
+        <div class="section skills">
+            <h2>技能</h2>
+            <ul>
+                <li>HTML、CSS、JavaScript</li>
+                <li>.Net, MVC, WebAPI</li>
+                <li>Sql Server, Oracle PL/SQL</li>
+                <li>docker, k6</li>
+            </ul>
+        </div>
+        <div class="section experience">
+            <h2>工作經歷</h2>
+            <ul>
+                <li><strong>朋億股份有限公司</strong> - 監工 (2018)</li>
+                <li><strong>中菲電腦股份有限公司</strong> - Programer (2019 - 2024目前)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
